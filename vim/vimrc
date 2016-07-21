@@ -1,0 +1,9 @@
+syntax enable
+
+" Plugins
+call plug#begin()
+
+Plug 'cfdrake/vim-carthage'
+
+call plug#end()
+
