@@ -5,6 +5,7 @@ call plug#begin()
 
 Plug 'cfdrake/vim-carthage'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'toyamarinyon/vim-swift'
 
 call plug#end()
 
