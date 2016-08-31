@@ -6,6 +6,12 @@ call plug#begin()
 Plug 'cfdrake/vim-carthage'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'toyamarinyon/vim-swift'
+Plug 'altercation/vim-colors-solarized'
 
 call plug#end()
 
+" Themes
+
+let g:solarized_termcolors=256
+set background=dark
+colorscheme solarized
