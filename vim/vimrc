@@ -12,7 +12,9 @@ Plug 'mattn/emmet-vim'
 call plug#end()
 
 " Themes
-
 let g:solarized_termcolors=256
 set background=dark
 colorscheme solarized
+
+" Mapping
+nmap <leader>l :set list!<CR>
