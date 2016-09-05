@@ -7,6 +7,7 @@ Plug 'cfdrake/vim-carthage'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'toyamarinyon/vim-swift'
 Plug 'altercation/vim-colors-solarized'
+Plug 'mattn/emmet-vim'
 
 call plug#end()
 
