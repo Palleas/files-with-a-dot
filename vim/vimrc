@@ -18,3 +18,9 @@ colorscheme solarized
 
 " Mapping
 nmap <leader>l :set list!<CR>
+
+" Text editing
+set tabstop=4
+set softtabstop=0 noexpandtab
+set shiftwidth=4
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
