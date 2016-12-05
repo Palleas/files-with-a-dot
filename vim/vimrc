@@ -8,6 +8,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'toyamarinyon/vim-swift'
 Plug 'altercation/vim-colors-solarized'
 Plug 'mattn/emmet-vim'
+Plug 'thoughtbot/vim-rspec'
 
 call plug#end()
 
@@ -35,3 +36,18 @@ endif
 au BufRead,BufNewFile Gemfile setfiletype ruby
 au BufRead,BufNewFile Dangerfile setfiletype ruby
 au BufRead,BufNewFile Fastfile setfiletype ruby
+
+" Ruby
+function! Ruby()
+    " Prevents @remi from judging you on Twitter
+    " https://twitter.com/remi/status/767701379926331392
+    set sts=2 sw=2 ts=2
+
+    " RSpec.vim mappings
+    map <Leader>t :call RunCurrentSpecFile()<CR>
+    map <Leader>s :call RunNearestSpec()<CR>
+    map <Leader>l :call RunLastSpec()<CR>
+    map <Leader>a :call RunAllSpecs()<CR>
+endfunction
+
+autocmd FileType ruby call Ruby()
