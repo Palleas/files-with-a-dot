@@ -6,10 +6,11 @@ export ZSH=/Users/poucro/.oh-my-zsh
 
 ZSH_THEME="robbyrussell"
 
-plugins=(git rbenv xcode)
+plugins=(git rbenv xcode vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
 # Vi mode!
 export KEYTIMEOUT=1
 bindkey -v
+
