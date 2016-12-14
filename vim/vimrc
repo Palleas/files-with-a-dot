@@ -26,6 +26,9 @@ set softtabstop=0 noexpandtab
 set shiftwidth=4
 set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
 
+" Ctrl-p
+let g:ctrlp_show_hidden = 1
+
 " Change cursor in Insert mode
 if $TERM_PROGRAM =~ "iTerm"
     let &t_SI = "\<Esc>]50;CursorShape=1\x7" "vertical bar in insert mode
