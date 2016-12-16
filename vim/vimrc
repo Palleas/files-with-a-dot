@@ -35,7 +35,8 @@ if $TERM_PROGRAM =~ "iTerm"
     let &t_EI = "\<Esc>]50;CursorShape=0\x7" "block in normal mode
 endif
 
-" File Types
-" ----------
+autocmd BufRead,BufNewFile Gemfile set filetype=ruby
+autocmd BufRead,BufNewFile Dangerfile set filetype=ruby
+autocmd BufRead,BufNewFile Fastfile set filetype=ruby
+autocmd BufRead,BufNewFile Podfile set filetype=ruby
 
-source $HOME/.vim/config/filetypes.vim
