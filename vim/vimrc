@@ -36,3 +36,6 @@ autocmd BufRead,BufNewFile Dangerfile set filetype=ruby
 autocmd BufRead,BufNewFile Fastfile set filetype=ruby
 autocmd BufRead,BufNewFile Podfile set filetype=ruby
 
+au BufNewFile,BufRead *.markdown,*.md set filetype=markdown
+
+
