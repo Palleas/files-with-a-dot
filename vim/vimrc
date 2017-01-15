@@ -20,8 +20,6 @@ colorscheme solarized
 " Mapping
 nmap <leader>l :set list!<CR>
 
-" Text editing
-
 " Ctrl-p
 let g:ctrlp_show_hidden = 1
 
@@ -38,4 +36,7 @@ autocmd BufRead,BufNewFile Podfile set filetype=ruby
 
 au BufNewFile,BufRead *.markdown,*.md set filetype=markdown
 
+" Prevents @remi from judging you on Twitter
+" https://twitter.com/remi/status/767701379926331392
+autocmd Filetype ruby setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
