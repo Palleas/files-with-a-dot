@@ -23,6 +23,7 @@ nmap <leader>l :set list!<CR>
 
 " Ctrl-p
 let g:ctrlp_show_hidden = 1
+map <Leader>, :CtrlPBuffer<CR>
 
 " Change cursor in Insert mode
 if $TERM_PROGRAM =~ "iTerm"
