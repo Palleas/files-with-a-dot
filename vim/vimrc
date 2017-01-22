@@ -9,6 +9,7 @@ Plug 'toyamarinyon/vim-swift'
 Plug 'altercation/vim-colors-solarized'
 Plug 'mattn/emmet-vim'
 Plug 'thoughtbot/vim-rspec'
+Plug 'junegunn/vim-easy-align'
 
 call plug#end()
 
@@ -35,6 +36,9 @@ autocmd BufRead,BufNewFile Fastfile set filetype=ruby
 autocmd BufRead,BufNewFile Podfile set filetype=ruby
 
 au BufNewFile,BufRead *.markdown,*.md set filetype=markdown
+
+" Align GitHub-flavored Markdown tables
+au FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
 
 " Prevents @remi from judging you on Twitter
 " https://twitter.com/remi/status/767701379926331392
