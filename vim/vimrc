@@ -45,3 +45,10 @@ au FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
 " https://twitter.com/remi/status/767701379926331392
 autocmd Filetype ruby setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
 
+" Unbind Arrow Keys
+" Unbind the cursor keys in insert, normal and visual modes.
+for prefix in ['i', 'n', 'v']
+	for key in ['<Up>', '<Down>', '<Left>', '<Right>']
+		exe prefix . "noremap " . key . " <Nop>"
+	endfor
+endfor
