@@ -41,6 +41,13 @@ au BufNewFile,BufRead *.markdown,*.md set filetype=markdown
 " Align GitHub-flavored Markdown tables
 au FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
 
+" Misc settings
+set number " Show line numbers
+set ts=2 " A tab = 4 spaces
+set sw=2 " Shift width
+set sts=2 " Short tab stop
+set et " Use spaces instead of tabs
+
 " Prevents @remi from judging you on Twitter
 " https://twitter.com/remi/status/767701379926331392
 autocmd Filetype ruby setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
