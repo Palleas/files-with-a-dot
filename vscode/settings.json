@@ -1,0 +1,13 @@
+{
+    "window.zoomLevel": 0,
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code",
+    "files.autoSave": "afterDelay",
+    "editor.autoIndent": true,
+    "window.openFilesInNewWindow": "on",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.enablePreview": false
+}
