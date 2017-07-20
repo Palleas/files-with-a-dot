@@ -9,5 +9,8 @@
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.editor.enablePreview": false
+    "workbench.editor.enablePreview": false,
+    "files.associations": {
+        "Dangerfile": "ruby"
+    }
 }
