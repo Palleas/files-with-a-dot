@@ -1,6 +1,6 @@
 {
-    "window.zoomLevel": 0,
-    "editor.fontSize": 13,
+    "window.zoomLevel": -1,
+    "editor.fontSize": 15,
     "editor.fontLigatures": true,
     "editor.fontFamily": "Fira Code",
     "files.autoSave": "afterDelay",
@@ -11,6 +11,22 @@
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "workbench.editor.enablePreview": false,
     "files.associations": {
-        "Dangerfile": "ruby"
-    }
+        "Dangerfile": "ruby",
+        "*.podspec": "ruby",
+        "*.stencil": "jinja",
+        "BUCK": "javascript",
+        "*.h": "objective-c",
+        "*.plist": "xml"
+    },
+    "editor.wordWrap": "on",
+    "workbench.fontAliasing": "antialiased",
+    "workbench.colorTheme": "Solarized Dark",
+    "emmet.excludeLanguages": [
+        "markdown",
+        "php"
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "files.useExperimentalFileWatcher": true,
+    "go.formatTool": "gofmt",
+    "editor.renderWhitespace": "all"
 }
