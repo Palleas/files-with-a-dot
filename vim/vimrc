@@ -3,6 +3,7 @@ syntax enable
 " Plugins
 call plug#begin()
 
+Plug 'JamshedVesuna/vim-markdown-preview'
 Plug 'cfdrake/vim-carthage'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'toyamarinyon/vim-swift'
@@ -59,3 +60,7 @@ for prefix in ['i', 'n', 'v']
     exe prefix . "noremap " . key . " <Nop>"
   endfor
 endfor
+
+" Disable auto comments
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
