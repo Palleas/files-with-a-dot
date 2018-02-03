@@ -1,0 +1,14 @@
+[user]
+	signingkey = 9D4F6FEE
+	name = Romain Pouclet
+	email = romain.pouclet@gmail.com
+[commit]
+	gpgsign = true
+[core]
+	excludesfile = ~/.gitignore
+[pull]
+	rebase = true
+[alias]
+	df = diff --word-diff=color
+[push]
+	default = simple
