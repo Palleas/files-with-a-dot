@@ -1,6 +1,7 @@
 tap 'caskroom/cask'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
+tap 'caskroom/fonts'
 brew 'git'
 brew 'carthage'
 brew 'httpie'
@@ -9,6 +10,7 @@ brew 'mas'
 cask 'visual-studio-code'
 cask 'minikube'
 cask 'docker'
+cask 'font-fira-code'
 mas "1Password", id: 443987910
 mas "Amphetamine", id: 937984704
 mas "App Cleaner", id: 1013897218
