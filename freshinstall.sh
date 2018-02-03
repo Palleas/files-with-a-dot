@@ -19,5 +19,11 @@ function configure_vim {
 
 function configure_gpg {
     mkdir -p $HOME/.gnupg
-    cp $DIR/gnupg/* $HOME/.gnupg
+    ln -s $DIR/gnupg/gpg-agent.conf $HOME/.gnupg/gpg-agent.conf
+    ln -s $DIR/gnupg/gpg.conf $HOME/.gnupg/gpg.conf
 }
+
+configure_git
+configure_homebrew
+configure_vim
+configure_gpg
