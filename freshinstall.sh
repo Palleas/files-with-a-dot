@@ -24,7 +24,13 @@ function configure_gpg {
     ln -s $DIR/gnupg/gpg.conf $HOME/.gnupg/gpg.conf
 }
 
+function configure_vscode {
+    mkdir -p $HOME/.vscode
+    ln -s $DIR/vscode/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
+}
+
 configure_git
 configure_homebrew
 configure_vim
 configure_gpg
+configure_vscode
