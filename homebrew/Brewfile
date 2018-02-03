@@ -7,7 +7,8 @@ brew 'httpie'
 brew 'jq'
 brew 'mas'
 cask 'visual-studio-code'
-cask "minikube"
+cask 'minikube'
+cask 'docker'
 mas "1Password", id: 443987910
 mas "Amphetamine", id: 937984704
 mas "App Cleaner", id: 1013897218
@@ -27,4 +28,4 @@ mas "Telegram Desktop", id: 946399090
 mas "Things3", id: 904280696
 mas "Wallcat", id: 1000397973
 mas "Xcode", id: 497799835
-
+mas "Bear", id: 1091189122
