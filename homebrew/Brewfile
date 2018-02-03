@@ -1,54 +1,27 @@
 tap 'caskroom/cask'
 tap 'homebrew/bundle'
 tap 'homebrew/core'
-brew 'autoconf'
 brew 'git'
 brew 'carthage'
-brew 'lame'
-brew 'x264'
-brew 'xvid'
-brew 'ffmpeg'
-brew 'fswatch'
-brew 'gdbm'
-brew 'openssl'
-brew 'readline'
-brew 'sqlite'
-brew 'xz'
-brew 'python3'
 brew 'httpie'
-brew 'oniguruma'
 brew 'jq'
 brew 'mas'
-brew 'node'
-brew 'pcre'
-brew 'pkg-config'
-brew 'ruby-build'
-brew 'rbenv'
-brew 'sonar-scanner'
-brew 'swiftformat'
-brew 'swiftlint'
-brew 'the_silver_searcher'
-brew 'tig'
-brew 'youtube-dl'
-cask 'appcleaner'
-cask 'caffeine'
-cask 'dropbox'
-cask 'flycut'
-cask 'iterm2'
-cask 'java'
-cask 'provisioning'
-cask 'skype'
-cask 'slack'
-cask 'sqlitebrowser'
-mas 'Xcode', id: 497799835
-mas 'Realm Browser', id: 1007457278
-mas 'Microsoft Remote Desktop', id: 715768417
-mas '1Password', id: 443987910
-mas 'iA Writer', id: 775737590
-mas 'Day One', id: 1055511498
-mas 'Tweetbot', id: 557168941
-mas 'OmniFocus', id: 867299399
-mas 'Spark', id: 1176895641
-mas 'Telegram', id: 747648890
-mas 'Install macOS Sierra', id: 1127487414
-mas 'Flowstate', id: 1051600144
+mas "1Password", id: 443987910
+mas "Amphetamine", id: 937984704
+mas "App Cleaner", id: 1013897218
+mas "DaisyDisk", id: 411643860
+mas "Drop", id: 1173932628
+mas "Flycut", id: 442160987
+mas "Keynote", id: 409183694
+mas "Linea Link", id: 1233368267
+mas "MindNode", id: 1289197285
+mas "Numbers", id: 409203825
+mas "Patterns", id: 429449079
+mas "Pixelmator", id: 407963104
+mas "Slack", id: 803453959
+mas "Soulver", id: 413965349
+mas "Telegram Desktop", id: 946399090
+mas "Things3", id: 904280696
+mas "Wallcat", id: 1000397973
+mas "Xcode", id: 497799835
+
