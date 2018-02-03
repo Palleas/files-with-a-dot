@@ -6,6 +6,8 @@ brew 'carthage'
 brew 'httpie'
 brew 'jq'
 brew 'mas'
+cask 'visual-studio-code'
+cask "minikube"
 mas "1Password", id: 443987910
 mas "Amphetamine", id: 937984704
 mas "App Cleaner", id: 1013897218
@@ -17,6 +19,7 @@ mas "Linea Link", id: 1233368267
 mas "MindNode", id: 1289197285
 mas "Numbers", id: 409203825
 mas "Patterns", id: 429449079
+mas "Postico", id: 1031280567
 mas "Pixelmator", id: 407963104
 mas "Slack", id: 803453959
 mas "Soulver", id: 413965349
